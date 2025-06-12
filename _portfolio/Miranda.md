@@ -2,7 +2,8 @@
 title: "Project: Virtual Human “Miranda”"
 excerpt: "解剖学的な正確さと芸術的な表現を両立させた、独自の筋肉シミュレーションリグを搭載した3D人体モデル。世界で25万回以上ダウンロード。"
 header:
-  image: /assets/images/miranda-hero.jpg # teaser: /assets/images/miranda-teaser.jpg # sidebar:
+  image: /assets/images/Miranda.jpg
+  teaser: /assets/images/Miranda-thumbnail.jpg
   - title: "役割"
     text: "企画、モデリング、リギング、最適化、公開の全工程"
   - title: "使用技術"
