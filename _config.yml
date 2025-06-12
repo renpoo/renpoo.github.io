@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Koji Sato (Renpoo Tsukioka)"
+  avatar           : "/assets/images/avatar.jpg"
+  bio              : "A creative technologist exploring the intersection of art, science, and humanity."
+  location         : "Everywhere"
   email            :
   links:
     - label: "Email"
