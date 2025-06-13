@@ -1,7 +1,6 @@
 ---
 layout: splash
-permalink: /title: "Home"
-permalink: /home/
+permalink: /
 header:
   overlay_image: /assets/images/SagradaFamilia.jpg # caption: "Andalucía, Spain (2024)"
 ---
