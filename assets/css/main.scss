@@ -15,8 +15,8 @@ search: false
   width: 100%;        /* 幅の基準を100%にする */
   padding: 0 20px;    /* 左右に少し余白を持たせる */
 
-  @media (min-width: 1280px) {
-    max-width: 1280px; /* ただし、どんなに画面が大きくても最大幅は1280pxまでにする */
+  @media (min-width: 800px) {
+    max-width: 800px; /* ただし、どんなに画面が大きくても最大幅は1280pxまでにする */
   }
 
   margin-left: auto;
