@@ -16,9 +16,15 @@ search: false
   padding: 0 20px;    /* 左右に少し余白を持たせる */
 
   @media (min-width: 800px) {
-    max-width: 800px; /* ただし、どんなに画面が大きくても最大幅は1280pxまでにする */
+    max-width: 1280px; /* ただし、どんなに画面が大きくても最大幅は1280pxまでにする */
   }
 
   margin-left: auto;
   margin-right: auto;
+}
+
+.page__content {
+  p, ul, ol, li {
+    max-width: 640px; // テキストの最大幅。800pxや45remなど、お好みで調整してください
+  }
 }
