@@ -1,6 +1,6 @@
 ---
 title: "Home"
-permalink: /
+permalink: /home/
 header:
   overlay_image: /assets/images/SagradaFamilia.jpg # caption: "Andalucía, Spain (2024)"
 ---
