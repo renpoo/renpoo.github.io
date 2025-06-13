@@ -7,3 +7,18 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+/* 【推奨】ハイブリッドな方法 */
+#main {
+  max-width: 85%;     /* 基本は画面の85%の幅にする */
+  width: 100%;        /* 幅の基準を100%にする */
+  padding: 0 20px;    /* 左右に少し余白を持たせる */
+
+  @media (min-width: 1280px) {
+    max-width: 1280px; /* ただし、どんなに画面が大きくても最大幅は1280pxまでにする */
+  }
+
+  margin-left: auto;
+  margin-right: auto;
+}
