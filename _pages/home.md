@@ -1,6 +1,6 @@
 ---
-title: "About Me"
-permalink: /about/
+title: "Home"
+permalink: /
 header:
   overlay_image: /assets/images/SagradaFamilia.jpg # caption: "Andalucía, Spain (2024)"
 ---
