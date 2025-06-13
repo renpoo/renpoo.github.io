@@ -20,3 +20,20 @@ search: false
     max-width: $max-width;
   }
 }
+
+/*
+ * ページの本文（段落）の最初の行をインデントする
+ * 古典的な書籍のスタイルを模倣
+*/
+.page__content p {
+  /* text-indentプロパティで、最初の行を2文字分インデントする */
+  text-indent: 2em;
+}
+
+/* 各セクションの見出し直後の最初の段落は、インデントしない（タイポグラフィの慣習） */
+.page__content h1 + p,
+.page__content h2 + p,
+.page__content h3 + p,
+.page__content h4 + p {
+  text-indent: 0;
+}
