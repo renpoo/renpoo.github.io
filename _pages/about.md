@@ -2,7 +2,7 @@
 title: "About Me"
 permalink: /about/
 header:
-  overlay_image: /assets/images/spain-journey.jpg # caption: "Andalucía, Spain (2024)"
+  overlay_image: /assets/images/SagradaFamilia.jpg # caption: "Andalucía, Spain (2024)"
 ---
 
 私は、テクノロジーを**「世界の深淵を覗くための探査機（プローブ）」**として用いる、クリエイティブ・テクノロジストの 佐藤 コウジ （月岡 蓮風）です。
