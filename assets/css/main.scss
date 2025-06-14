@@ -14,7 +14,7 @@ search: false
    ========================================================================== */
 
 #main {
-  max-width: 85%;
+  max-width: 90%;
  
   @include breakpoint($x-large) {
     max-width: $max-width;
