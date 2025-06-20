@@ -1,12 +1,27 @@
-# Changelog
+---
+title: History
+classes: wide
+permalink: "/docs/history/"
+excerpt: Change log of enhancements and bug fixes made to the theme.
+sidebar:
+  nav: docs
+last_modified_at: '2025-06-16T00:55:04+08:00'
+toc: false
+---
 
+<!--
+  Sourced from CHANGELOG.md
+  See Rakefile `task :changelog` for details
+-->
+
+{% raw %}
 ## [4.27.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.1)
 
 ### Enhancements
 
-- Add a "Share on Bluesky" button (#5179)
-- Add preset variables for modern font stack (#5033)
-- Update X share button to match brand color (#5245)
+- Add a "Share on Bluesky" button [#5179](https://github.com/mmistakes/minimal-mistakes/issues/5179)
+- Add preset variables for modern font stack [#5033](https://github.com/mmistakes/minimal-mistakes/issues/5033)
+- Update X share button to match brand color [#5245](https://github.com/mmistakes/minimal-mistakes/issues/5245)
 
 ### Bug Fixes
 
@@ -19,14 +34,14 @@
 - Add RTL Support. [#4886](https://github.com/mmistakes/minimal-mistakes/pull/4886)
 - Add missing Polish translation. [#4890](https://github.com/mmistakes/minimal-mistakes/pull/4890)
 - Rewrite most directions with [CSS logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values).
-- Remove unnecessary "type" attribute (#4956)
-- The "if" means the default is never used (#4955)
-- For pages without a title, show the site title only once (#4959)
+- Remove unnecessary "type" attribute [#4956](https://github.com/mmistakes/minimal-mistakes/issues/4956)
+- The "if" means the default is never used [#4955](https://github.com/mmistakes/minimal-mistakes/issues/4955)
+- For pages without a title, show the site title only once [#4959](https://github.com/mmistakes/minimal-mistakes/issues/4959)
 - Use `documents-collection.html` partial in `home` layout.
 - Add Bulgarian translation. [#5003](https://github.com/mmistakes/minimal-mistakes/pull/5003)
-- Add provider and comments info to `single.html` layout for non-production. (#5068)
-- Tweak contrast skin $primary-color to adhere to WCAG guidelines. (#5126)
-- Update social share buttons to reflect Twitter rebranding to X (#5210)
+- Add provider and comments info to `single.html` layout for non-production. [#5068](https://github.com/mmistakes/minimal-mistakes/issues/5068)
+- Tweak contrast skin $primary-color to adhere to WCAG guidelines. [#5126](https://github.com/mmistakes/minimal-mistakes/issues/5126)
+- Update social share buttons to reflect Twitter rebranding to X [#5210](https://github.com/mmistakes/minimal-mistakes/issues/5210)
 
 ### Bug Fixes
 
@@ -37,8 +52,8 @@
 - Fix bad &lt;figure&gt; HTML if "alt" contains quotes.
 - Fix extra newline generated in `_includes/post_pagination.html`.
 - Hide hidden links & remove the overlay when one is clicked. [#5042](https://github.com/mmistakes/minimal-mistakes/pull/5042)
-- Fix typo in "Configuration" (#5106)
-- bundle exec jekyll serve will fail if more than once (#5193)
+- Fix typo in "Configuration" [#5106](https://github.com/mmistakes/minimal-mistakes/issues/5106)
+- bundle exec jekyll serve will fail if more than once [#5193](https://github.com/mmistakes/minimal-mistakes/issues/5193)
 
 ### Documentation & Maintenance
 
@@ -1762,3 +1777,4 @@
 - Google Analytics, Google Authorship, webmaster verifies, and Twitter card meta are now optional.
 
 ## [1.0.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/v1.0.1)
+{% endraw %}
