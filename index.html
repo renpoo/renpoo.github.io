@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Koji Sato (Renpoo Tsukioka)</title>
+<meta name="description" content="Koji Sato — data scientist, 3DCG designer, and writer in Kawasaki, Japan. I look for structure in the relations between things.">
+<meta property="og:title" content="Koji Sato (Renpoo Tsukioka)">
+<meta property="og:description" content="I look for structure in the relations between things, not in the things themselves.">
+<meta property="og:url" content="https://renpoo.github.io/">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --ink: #1e1b16;
+    --ink-soft: #5a554d;
+    --paper: #ffffff;
+    --rule: #d9d4ca;
+    --gold: #a97f14;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #ebe7df;
+      --ink-soft: #a8a297;
+      --paper: #17150f;
+      --rule: #3a362d;
+      --gold: #d4a832;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 38rem;
+    margin: 0 auto;
+    padding: 4rem 1.25rem 6rem;
+  }
+  a { color: var(--gold); text-decoration: none; border-bottom: 1px solid var(--rule); }
+  a:hover, a:focus-visible { border-bottom-color: var(--gold); outline: none; }
+  a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+  .hero { margin: 0 0 3.5rem; }
+  .hero h1 {
+    font-size: 1.85rem;
+    line-height: 1.3;
+    font-weight: 400;
+    margin: 0 0 1.5rem;
+    letter-spacing: -0.01em;
+  }
+  .hero .four {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.75rem;
+    color: var(--ink-soft);
+    font-size: 1.05rem;
+  }
+  .hero .four li { margin: 0.1rem 0; }
+  .hero .who {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+  }
+  .hero .who strong { color: var(--ink); font-weight: 600; }
+
+  section { margin: 0 0 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+  h2 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 0 0 1.25rem;
+    color: var(--ink-soft);
+  }
+  .entry { margin: 0 0 1.5rem; }
+  .entry h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem;
+  }
+  .entry p { margin: 0 0 0.35rem; }
+  .entry .meta { font-size: 0.9rem; color: var(--ink-soft); }
+  .entry .meta a { color: var(--ink-soft); }
+  .entry .meta a:hover { color: var(--gold); }
+
+  .credits li { margin: 0 0 0.75rem; }
+  .credits ul { padding-left: 1.1rem; }
+
+  footer {
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+  }
+  footer p { margin: 0 0 0.5rem; }
+  .jp { font-size: 0.85rem; color: var(--ink-soft); margin-top: 2rem; }
+</style>
+</head>
+<body>
+<main>
+
+<header class="hero">
+  <h1>I look for structure in the relations between things, not in the things themselves.</h1>
+  <ul class="four">
+    <li>Ledgers as graph networks.</li>
+    <li>Sound as geometry.</li>
+    <li>Cities as layered maps.</li>
+    <li>Human figures as 40,000 interdependent nodes.</li>
+  </ul>
+  <p class="who"><strong>Koji Sato</strong>, writing as Renpoo Tsukioka. Data scientist, 3DCG designer, and essayist in Kawasaki, Japan. Native Japanese; English at professional working proficiency. Available for remote contract work, 20–30 hours a week.</p>
+</header>
+
+<section>
+  <h2>Current work</h2>
+
+  <div class="entry">
+    <h3>Tensor-Link Utility</h3>
+    <p>An open platform that projects transaction data — double-entry ledgers, urban traffic, order books, fMRI signals — onto a single mass-spring-damper network and reads anomalies as physical signatures: conservation residuals, spectral-radius lock, free-energy collapse. It ships a protocol that constrains an LLM to test its own false positives and false negatives before it reports anything.</p>
+    <p class="meta">639 commits · Dockerised · test-driven · documented in Japanese and English · AGPL-3.0 · <a href="https://github.com/renpoo/TLU">github.com/renpoo/TLU</a></p>
+  </div>
+
+  <div class="entry">
+    <h3>Technical explainers, in two languages</h3>
+    <p>Since 2025 I have written for business readers who are not engineers — on Excel performance, numerical optimisation, matrix algebra in cost accounting, cross-correlation for anomaly detection, GIS overlay analysis, and how to work with generative AI. Each piece appears in Japanese on note and in English on Medium.</p>
+    <p class="meta">Latest: <a href="https://medium.com/@Renpoo/what-no-results-found-really-means-fd2e5240ea66">What “No Results Found” Really Means</a> · <a href="https://note.com/techno_guide_r">note (JP)</a> · <a href="https://medium.com/@Renpoo">Medium (EN)</a></p>
+  </div>
+</section>
+
+<section>
+  <h2>Earlier work</h2>
+
+  <div class="entry">
+    <h3>Miranda</h3>
+    <p>A muscle-rigged human maquette for Autodesk Maya, released under CC BY 4.0 in 2013 and downloaded over 250,000 times. Re-engineered from a Maya Muscle system into a skinCluster + Blendshape rig, halving the package from 525.9 MB to 265.3 MB while keeping muscle bulge and relaxation. Both versions are still maintained.</p>
+    <p class="meta"><a href="https://www.behind-universe.org/">behind-universe.org</a></p>
+  </div>
+
+  <div class="entry">
+    <h3>xcor-Analyzer</h3>
+    <p>A MATLAB tool that renders sound as correlation-function terrain, built at the University of Tokyo to study concert-hall acoustics. From a stereo recording alone it recovered 68 cm of a singer’s movement across the room. Three peer-reviewed papers came out of this work, one of them a best-student-paper award.</p>
+    <p class="meta"><a href="https://github.com/renpoo/xcor_Analyzer">github.com/renpoo/xcor_Analyzer</a></p>
+  </div>
+
+  <div class="entry">
+    <h3>Layered maps of Kawasaki</h3>
+    <p>With the civic group Open Kawasaki, I overlaid elevation, housing-complex locations, shopping streets, rail lines, and ageing-population statistics onto one map, to make the city’s food-desert problem visible where spreadsheets could not.</p>
+  </div>
+
+  <div class="entry">
+    <h3>Translation</h3>
+    <p>Six years rendering five books by Yasuzo Shimizu, founder of J.F. Oberlin University, from Meiji-era Japanese, Kanbun, and classical Japanese into modern prose. 659 reference sources digitised and verified; the manuscript version-controlled in Git. Two volumes published, three delivered.</p>
+  </div>
+</section>
+
+<section class="credits">
+  <h2>Credits other people wrote</h2>
+  <ul>
+    <li>Acknowledged in Mukai, T., “Example-based Helper Bone Rig Construction for Linear Blend Skinning,” IPSJ Journal 56(11), 2015 — winner of the IPSJ Best Paper Award 2016 — for providing the character model and advising on its use. (Credited as 大蘇蓮風 / Renpoo Taiso.)</li>
+    <li>Named as the builder of the acoustic analysis system whose figures appear in Ken Ito, <em>Chōnōryoku!</em>, Chikuma Shinsho, 2015.</li>
+    <li>Miranda is listed in the Maya Rigging Wiki’s muscle-deformation reference, alongside Weta Digital’s Tissue.</li>
+    <li>Selected for the ACM SIGGRAPH ’97 Electronic Theater (<em>Keizan Musouzu</em>, NHK).</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Work inquiries: data visualisation, research, technical writing, Japanese-language evaluation and post-editing. Written communication preferred; short calls are fine.</p>
+  <p><a href="mailto:renpoo@behind-universe.org">renpoo@behind-universe.org</a> · <a href="https://github.com/renpoo">GitHub</a> · <a href="https://www.upwork.com/freelancers/~013816aed1ae3d7120">Upwork</a> · <a href="https://www.linkedin.com/in/koji-s-49752358/">LinkedIn</a></p>
+  <p class="jp">佐藤 貢士（月岡 蓮風）。川崎市在住。日本語の記事は <a href="https://note.com/techno_guide_r">note</a> に、観劇記と思索は <a href="https://note.com/renpoo_tsukioka">renpoo_tsukioka</a> に。</p>
+</footer>
+
+</main>
+</body>
+</html>
