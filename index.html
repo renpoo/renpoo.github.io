@@ -145,6 +145,23 @@
       color: var(--gold);
     }
 
+    .entry figure {
+      margin: 0.75rem 0 1rem;
+    }
+
+    .entry img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border: 1px solid var(--rule);
+    }
+
+    .entry figcaption {
+      font-size: 0.8rem;
+      color: var(--ink-soft);
+      margin-top: 0.4rem;
+    }
+
     .credits li {
       margin: 0 0 0.75rem;
     }
@@ -245,6 +262,13 @@
 
       <div class="entry">
         <h3>xcor-Analyzer</h3>
+        <figure>
+          <img src="img/sample.ICCF.png" width="800" height="500"
+            alt="A 3D surface plot of an interaural cross-correlation function over time. Peaks form a ridge that drifts sideways as a singer moves across the room."
+            loading="lazy">
+          <figcaption>Cross-correlation terrain of a stereo recording. The ridge drifting left records the
+            singer walking past the microphone.</figcaption>
+        </figure>
         <p>A MATLAB tool that renders sound as correlation-function terrain. I built it as an unpaid collaborator
           with Ken Ito’s group at the University of Tokyo, to study concert-hall acoustics. From a stereo recording
           alone it recovered 68 cm of a singer’s movement across the room. Three peer-reviewed papers came out of
@@ -283,7 +307,7 @@
         <li>Acknowledged in Mukai, T., “Example-based Helper Bone Rig Construction for Linear Blend Skinning,” IPSJ
           Journal 56(11), 2015 — winner of the IPSJ Best Paper Award 2016 — for providing the character model and
           advising on its use. (Credited as 大蘇 蓮風 / Renpoo Taiso.)</li>
-        <li>Selected for the ACM SIGGRAPH ’97 Electronic Theater (<em>Keizan Musouzu</em>, NHK).</li>
+        <li>Selected for the ACM SIGGRAPH ’97 Electronic Theater (<em>"Keizan Musouzu"</em>, NHK).</li>
       </ul>
     </section>
 
