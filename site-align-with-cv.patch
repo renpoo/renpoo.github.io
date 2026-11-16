@@ -1,0 +1,91 @@
+diff --git a/index.html b/index.html
+index 44c35e4..75f52ce 100644
+--- a/index.html
++++ b/index.html
+@@ -6,7 +6,7 @@
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Koji Sato (Renpoo Tsukioka)</title>
+   <meta name="description"
+-    content="Koji Sato — data analyst and visualiser, 3DCG rigger, and writer in Kawasaki, Japan. I look for structure in the relations between things.">
++    content="Koji Sato — software engineer, data analyst and visualiser, and 3DCG rigger in Kawasaki, Japan. I look for structure in the relations between things.">
+   <meta property="og:title" content="Koji Sato (Renpoo Tsukioka)">
+   <meta property="og:description"
+     content="I look for structure in the relations between things, not in the things themselves.">
+@@ -207,12 +207,12 @@
+         <li>Cities as overlay maps.</li>
+         <li>Human figures as 40,000 interdependent nodes.</li>
+       </ul>
+-      <p class="who"><strong>Koji Sato</strong>, writing as Renpoo Tsukioka. Data analyst and visualiser, 3DCG rigger,
+-        and essayist in Kawasaki, Japan. Native Japanese; English at professional working proficiency in reading and
+-        writing technical material, conversational in speech.</p>
+-      <p class="who">What you can hire me for: data analysis and visualisation, Japanese-language evaluation and
+-        post-editing of AI output, technical writing in Japanese, and research support. Remote contract work,
+-        up to 32 hours a week.</p>
++      <p class="who"><strong>Koji Sato</strong>, writing as Renpoo Tsukioka. Software engineer, data analyst and visualiser, 3DCG rigger,
++        and essayist in Kawasaki, Japan. Native Japanese; English at an intermediate level: I read technical
++        documentation, and write and speak simple technical English.</p>
++      <p class="who">What I do: software development, data analysis and visualisation, Japanese-language evaluation and
++        post-editing of AI output, technical writing in Japanese, and research support. Open to employment and to
++        contract work.</p>
+     </header>
+ 
+     <section>
+@@ -242,19 +242,23 @@
+             positive for inflow and negative for outflow. Where the balance sheet looked steady, the flows through
+             several accounts swung sharply from month to month.</figcaption>
+         </figure>
+-        <p>An open analysis platform that models a double-entry ledger as a mass-spring-damper network and flags
++        <p>Version 1, a prototype, of an open analysis tool that models a double-entry ledger as a mass-spring-damper network and flags
+           anomalies using quantities borrowed from classical mechanics and thermodynamics: entropy (how spread out or
+           concentrated the flow is), conservation residuals (whether what flows in matches what flows out), the
+           spectral radius of the transition matrix (how strongly a cycle feeds back on itself), and an energy-like
+           functional (a single number that rises when the system is under strain). The physical analogy is a
+           modelling choice, not a claim that ledgers obey physical law.</p>
+-        <p>Validated so far only on synthetic cases: a model company's books, and test sets shaped like urban traffic,
+-          order books, and brain-signal time series. Work on real data has not started. I have been in contact with
++        <p>Validated so far only on 10 synthetic datasets: a model company's books with and without injected anomalies
++          (unexplained leaks, round-tripping, embezzlement), and test sets shaped like urban traffic, order books, and
++          brain-signal time series. Work on real data has not started, and I am re-examining
++          whether each borrowed method is valid for transaction data. I have been in contact with
+           one researcher whose prior work overlaps with this.</p>
+         <p>It also ships a protocol that requires an LLM to test its own false positives and false negatives before
+-          it reports anything. The code was written with AI coding agents under test-driven review; the design,
+-          the tests, and the limits stated above are mine.</p>
+-        <p class="meta">Python · Dockerised · test-driven · documented in Japanese and English · AGPL-3.0 ·
++          it reports anything. I worked specification-first and test-first
++          with AI coding agents (Claude, Gemini): in some phases I wrote the code and the agents navigated and audited
++          it; in others the agents wrote it and I directed and reviewed. The design, the tests, and the limits stated
++          above are mine.</p>
++        <p class="meta">Python (about 12,000 lines) · Dockerised · 129 unit and integration tests · documented in Japanese and English · AGPL-3.0 ·
+           <a href="https://github.com/renpoo/TLU">github.com/renpoo/TLU</a>
+         </p>
+       </div>
+@@ -370,7 +374,7 @@
+           </figcaption>
+         </figure>
+         <p>Six years rendering five books by Yasuzo Shimizu, founder of J.F. Oberlin University (Japan), from Meiji-era
+-          Japanese, Kanbun, and classical Japanese into plain modern Japanese prose. 659 reference materials, from the
++          classical Japanese into annotated modern Japanese. 659 reference books, from the
+           Edo to the Shōwa era, digitised and checked against the text; the manuscript version-controlled in Git.
+           Two volumes published, three delivered.</p>
+       </div>
+@@ -388,8 +392,8 @@
+         <li>Award for the Outstanding Paper by Student, 7th International Symposium on Temporal Design (Tokyo, 2015),
+           for “Sound Structure of Ancient Greek Harmonia Modes: Heterodyne Resonance and Differential Bases”.
+           Certificate available on request.</li>
+-        <li>Named as the builder of the acoustic analysis system whose figures appear in Ken Ito, <em>“Chōnōryoku!
+-            (Extra Listening Perception!)”</em>, Chikuma Shinsho, 2015.</li>
++        <li>Named as the builder of the acoustic analysis system whose figures appear in Ken Ito, <em>Cho-No-Ryoku! (OTO-POTENTIALS = Auditory Super
++            Possibilities)</em>, Chikuma Shinsho, 2015.</li>
+         <li>Acknowledged in Mukai, T., “Example-based Helper Bone Rig Construction for Linear Blend Skinning,” IPSJ
+           Journal 56(11), 2015 — winner of the IPSJ Best Paper Award 2016 — for providing the character model and
+           advising on its use. (Credited as 大蘇 蓮風 / Renpoo Taiso.)</li>
+@@ -397,7 +401,7 @@
+     </section>
+ 
+     <footer>
+-      <p>Work inquiries: data analysis and visualisation, research support, technical writing, Japanese-language
++      <p>Work inquiries: software development, data analysis and visualisation, research support, technical writing, Japanese-language
+         evaluation and post-editing. Written communication preferred; short calls are fine.</p>
+       <p>Email: renpoo [at] behind-universe.org (replace [at] with @) · <a href="https://github.com/renpoo">GitHub</a> ·
+         <a href="https://www.upwork.com/freelancers/~013816aed1ae3d7120">Upwork</a> · <a
